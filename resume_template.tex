@@ -1,0 +1,117 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+\documentclass{resume}
+\hypersetup{
+   pdftitle = {YourName\_CV},
+   pdfauthor = {YourName（YourEmail）}
+}
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{1.1}
+\definecolor{wechat_green}{RGB}{76,191,42}
+
+\begin{document}
+\pagenumbering{gobble} %常用参数有gobble、arabic和roman，分别代表无页码、阿拉伯数字页码和罗马数字页码
+
+\pdfbookmark[0]{YourName\_CV}{title}% "0" = chapter level, "1" = section level,...
+
+%=============顶部个人信息栏====================
+\pdfbookmark[1]{1 个人信息}{information}
+
+\begin{minipage}{0.8\textwidth}                                                                
+\begin{flushleft}
+  \begin{Huge}{\color{black}\textit{机器学习之美}}\end{Huge} \vspace{0.15cm}\\
+   \textbf{\large 意向岗位：算法工程师}\vspace{0.3cm}\\
+ \multirow{1}{*}[0.69em]{\hspace{-0.06cm}\includegraphics[width=0.023\textwidth]{photo/CPC.pdf}}\hspace{0.1cm}{中共党员}\vspace{0.08cm} \hspace{0.65cm}  {\color{black}\faPhone} {\color{wechat_green}\faWechat}\hspace{0.1cm}{$(+86) 166$-$8888$-$6666$} \hspace{0.65cm}{\color{black}\faEnvelopeO}\hspace{0.1cm}{youremail@gmail.com}  \vspace{0.08cm} \\
+{\color{black}\faGithub}\hspace{0.1cm}\href{https://github.com}{YourGitHubAccount}  \hspace{0.55cm}  {\color{black}\faMapMarker}\hspace{0.1cm}\href{https://j.map.baidu.com/7d/NTc}{北京市海淀区学院路37号}
+  \end{flushleft}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.2\textwidth} 
+  \begin{center}
+  \includegraphics[width=1.0\textwidth]{photo/photo.jpg} %照片
+   \end{center}
+   \end{minipage}
+\vspace{-0.5cm}
+
+%=============教育背景栏====================
+\pdfbookmark[1]{2 教育背景}{education}
+\section*{\faGraduationCap\ 教育背景}
+\datedsubsection{{\color{black}\faBookmark} \textbf{X\hspace{0.279cm}X\hspace{0.279cm}大\hspace{0.279cm}学}\hspace{0.8cm} \textit{硕士研究生(\textbf{推免生})}\hspace{3.2cm} 计算机科学与技术 }{$2016.9$ -- $2019.6$}
+\datedsubsection{{\color{black}\faBookmark} \textbf{X\hspace{0.279cm}X\hspace{0.279cm}大\hspace{0.279cm}学}\hspace{0.8cm} \textit{本科} \textbf{($\boldsymbol{GPA : 3.88/4.0}$, 1/100)} \hspace{1cm} 计算机科学与技术}{$2012.9$ -- $2016.6$}
+\vspace{0.1cm}
+
+%=============实习经历====================
+\pdfbookmark[1]{3 实习经历}{Internship}
+\section*{\faSend\ 实习经历}
+\vspace{-0.15cm}
+\datedsubsection{{\color{black}\faBookmark}  \textbf{阿里巴巴 \hspace{2.8cm}  算法研究员} }{$2018$.$3$ -- $2018$.$6$}
+\begin{coloritemize}
+  \item STAR法则介绍, 情境(situation)、目标（target）、行动(action)、结果(result)四项
+  \item STAR法则介绍
+\end{coloritemize}
+\vspace{-0.5cm}
+
+\datedsubsection{{\color{black}\faBookmark}  \textbf{腾讯 \hspace{2.8cm}  算法研究员} }{$2018$.$3$ -- $2018$.$6$}
+\begin{coloritemize}
+  \item STAR法则介绍
+  \item STAR法则介绍
+\end{coloritemize}
+\vspace{-0.55cm}
+
+\datedsubsection{{\color{black}\faBookmark}  \textbf{百度 \hspace{2.8cm}  算法研究员 } }{$2018$.$3$ -- $2018$.$6$}
+\begin{coloritemize}
+  \item STAR法则介绍
+  \item STAR法则介绍
+\end{coloritemize}
+\vspace{-0.5cm}
+
+%=============科研经历====================
+\pdfbookmark[1]{4 科研经历}{research}
+\section*{\faUsers\ 科研经历}
+\datedsubsection{{\color{black}\faBookmark}  \textbf{课题一 \hspace{2.8cm} 项目负责人} }{$2017$.$9$ -- $2019$.$4$}
+\begin{coloritemize}
+  \item STAR法则介绍
+  \item STAR法则介绍
+\end{coloritemize}
+\vspace{-0.5cm}
+
+\datedsubsection{{\color{black}\faBookmark}  \textbf{课题二 \hspace{2.8cm} 项目负责人} }{$2016$.$3$ -- $2016.5$}
+\begin{coloritemize}
+  \item STAR法则介绍
+  \item STAR法则介绍
+\end{coloritemize}
+\vspace{-0.5cm}
+
+\datedsubsection{{\color{black}\faBookmark}  \textbf{课题三 \hspace{2.8cm} 项目负责人} }{$2016$.$3$ -- $2016.5$}
+\begin{coloritemize}
+  \item STAR法则介绍
+  \item STAR法则介绍
+\end{coloritemize}
+\vspace{-0.5cm}
+
+%=============研究产出====================
+\pdfbookmark[1]{5 研究产出}{output}
+\section*{\faBook\ 研究产出}
+\vspace{-0.15cm}
+\datedline{{\color{black}\faFileTextO}\hspace{0.1cm}\href{https://arxiv.org/abs/1608.06993}{Huang, Gao, Zhuang Liu, Laurens Van Der Maaten, and Kilian Q. Weinberger. "Densely connected convolutional networks." In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 4700-4708. 2017.}}{}
+\datedline{{\color{black}\faFileTextO}\hspace{0.1cm}\href{https://arxiv.org/abs/1608.06993}{Huang, Gao, Zhuang Liu, Laurens Van Der Maaten, and Kilian Q. Weinberger. "Densely connected convolutional networks." In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 4700-4708. 2017.}}{}
+\datedline{{\color{black}\faFileTextO}\hspace{0.1cm}\href{https://arxiv.org/abs/1608.06993}{Huang, Gao, Zhuang Liu, Laurens Van Der Maaten, and Kilian Q. Weinberger. "Densely connected convolutional networks." In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 4700-4708. 2017.}}{}
+
+%=============获奖情况====================
+\pdfbookmark[1]{6 奖项荣誉}{honour}
+\section*{\faTrophy 奖项荣誉}
+\datedline{{\color{black}\faBookmark}\hspace{0.1cm}研究生数学建模竞赛一等奖}{$2017$.$11$}
+\datedline{{\color{black}\faBookmark}\hspace{0.1cm}美国大学生\textbf{数学建模竞赛}二等奖}{$2015$.$10$}
+\datedline{{\color{black}\faBookmark}\hspace{0.1cm}全国大学生\textbf{数学竞赛}预赛二等奖}{$2013$.$11$}
+\vspace{-0.15cm}
+
+
+%=============证书&技能====================
+\pdfbookmark[1]{7 素质 \& 技能}{certification}
+\section*{\faCogs\ 素质\& 技能}
+\datedline{{\color{black}\faLinux}\hspace{0.1cm} 描述1}{}
+\datedline{{\color{black}\faCodepen}\hspace{0.1cm} 描述2}{}
+\datedline{{\color{black}\faRefresh}\hspace{0.1cm} 描述3}{} 
+
+%\rightline{（上次更新：2018年6月）}   
+\end{document}
