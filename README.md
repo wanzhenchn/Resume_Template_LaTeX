@@ -1,7 +1,7 @@
 # Resume Template of LaTeX
 ### 一份在实践中久经考验的LaTeX制作的简历模板
 <div align="center">
-<img src="./photo/resume_preview.png" height=20% width=50% >
+<img src="./photo/resume_preview.png" height=40% width=100% >
 </div>
 
 ### 1. 下载或者clone该仓库
